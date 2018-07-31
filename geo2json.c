@@ -21,8 +21,7 @@ int main(){
 			fprintf(stderr, "Invalid longitude: %f\n", longitude);
 			return 2;
 		}
-		printf("{latitude: %f, longitude %f, info: '%s'i}", latitude, longitude,
-				info);
+		printf("{latitude: %f, longitude %f, info: '%s'}", latitude, longitude, info);
 	}
 	puts("\n]");
 	return 0;
